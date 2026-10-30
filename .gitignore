@@ -1,0 +1,29 @@
+# Local Secret Files (Never committed to GitHub)
+.env
+*.env
+!*.env.example
+keys.json
+wallet.json
+*.key
+*.pem
+
+# Python Bytecode & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
